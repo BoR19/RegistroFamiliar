@@ -1,5 +1,5 @@
 const CACHE_NAME = 'familia-cache-v1';
-const urlsToCache = ['/', '/index.html', '/script.js', '/styles.css','/manifest.json'];
+const urlsToCache = ['/', '/index.html', '/script.js' ];
 
 self.addEventListener('install', event => {
   event.waitUntil(
